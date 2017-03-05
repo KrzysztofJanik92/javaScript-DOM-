@@ -1,0 +1,72 @@
+body
+{ 
+background-image: url('../img/obraz4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.text{
+    display: block;padding: 10px 50px;width: 80%;margin: 0 auto; background: Rgba(0, 0, 0, 0.3);
+    
+}
+.text img{
+    width: 50%;
+    float: right;
+    margin: 0 auto;
+    padding: 10px 10px 10px 10px;
+}
+.text h2{
+    text-align: center;
+}
+.menu{
+    clear:both;
+}
+#html{
+    
+    color: white;
+    font-family: Indie Flower;
+    font-size: 20px;
+    text-align: justify;
+    
+}
+.sel{
+    float: left;
+    width: 10%;
+}
+.header{
+    float:left;
+    width: 90%;
+}
+h1{
+    text-align: center;
+    font-family: Indie Flower;
+}
+.content{
+    clear: both;
+}
+.footer{
+    clear: both;
+    background: Rgba(0, 0, 0, 0.2);
+    margin: 20px 0 0 0;
+    padding: 20px;
+    font-family: Indie Flower;
+    color: white;
+}
+select {
+    appearance: button;
+    background-color: black;/*Rgba(255, 255, 255, 0.2);*/
+    background-position: center right;
+    background-repeat: no-repeat;
+    border: 2px solid gray;
+    border-radius: 5px;
+    color: black;
+    font-size: 20px;
+    font-family: Indie Flower;
+    color:white;
+    margin: 0;
+    overflow: hidden;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 5px 5px 20px 5px;
+}
