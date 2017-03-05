@@ -4,53 +4,26 @@ background-image: url('../img/obraz4.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
-.text{
-    display: block;padding: 10px 50px;width: 80%;margin: 0 auto; background: Rgba(0, 0, 0, 0.3);
-    
-}
-.text img{
-    width: 50%;
-    float: right;
-    margin: 0 auto;
-    padding: 10px 10px 10px 10px;
-}
-.text h2{
+
+h1{
     text-align: center;
+    font-family: 'Raleway', sans-serif;
 }
+
 .menu{
     clear:both;
 }
-#html{
-    
-    color: white;
-    font-family: 'Droid Sans', sans-serif;
-    font-size: 20px;
-    text-align: justify;
-    
+
+header{
+    float:left;
+    width: 90%;
 }
+
 .sel{
     float: left;
     width: 10%;
 }
-.header{
-    float:left;
-    width: 90%;
-}
-h1{
-    text-align: center;
-    font-family: 'Droid Sans', sans-serif;
-}
-.content{
-    clear: both;
-}
-.footer{
-    clear: both;
-    background: Rgba(0, 0, 0, 0.2);
-    margin: 20px 0 0 0;
-    padding: 20px;
-    font-family: Droid Sans;
-    color: white;
-}
+
 select {
     background-color: black;
     border: 2px solid gray;
@@ -61,4 +34,40 @@ select {
     padding-top: 2px;
     padding-bottom: 2px;
     margin: 5px 5px 20px 5px;
+}
+
+.text{
+    display: block;padding: 10px 50px;width: 80%;margin: 0 auto; background: Rgba(0, 0, 0, 0.3);
+    
+}
+
+.text img{
+    width: 50%;
+    float: right;
+    margin: 0 auto;
+    padding: 10px 10px 10px 10px;
+}
+
+.text h2{
+    text-align: center;
+}
+
+.content{
+    clear: both;
+}
+
+#html{
+    color: white;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 20px;
+    text-align: justify;  
+}
+
+.footer{
+    clear: both;
+    background: Rgba(0, 0, 0, 0.2);
+    margin: 20px 0 0 0;
+    padding: 20px;
+    font-family: Droid Sans;
+    color: white;
 }
