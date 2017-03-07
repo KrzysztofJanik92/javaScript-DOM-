@@ -9,10 +9,6 @@ h1{
     font-family: 'Raleway', sans-serif;
 }
 
-.menu{
-    clear:both;
-}
-
 header{
     float:left;
     width: 90%;
@@ -29,22 +25,18 @@ select {
     border-radius: 5px;
     font-size: 20px;
     font-family: 'Droid Sans', sans-serif;
-    color:white;
+    color: white;
     padding-top: 2px;
     padding-bottom: 2px;
     margin: 5px 5px 20px 5px;
 }
 
-#innerContent{
+.text{
     display: block;
     padding: 10px 50px;
     width: 80%;
     margin: 0 auto; 
     background: Rgba(0, 0, 0, 0.3);
-    color: white;
-    font-family: 'Droid Sans', sans-serif;
-    font-size: 20px;
-    text-align: justify;  
 }
 
 .text img{
@@ -58,12 +50,12 @@ select {
     text-align: center;
 }
 
-.content{
-    clear: both;
-}
 
-.hidden{
-    display: none;
+#content{
+    color: white;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 20px;
+    text-align: justify;  
 }
 
 .footer{
@@ -71,6 +63,7 @@ select {
     background: Rgba(0, 0, 0, 0.2);
     margin: 20px 0 0 0;
     padding: 20px;
-    font-family: Droid Sans;
+    font-family: 'Droid Sans', sans-serif;
     color: white;
 }
+
