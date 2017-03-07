@@ -9,7 +9,7 @@ h1{
     font-family: 'Raleway', sans-serif;
 }
 
-#header{
+header{
     float:left;
     width: 90%;
 }
@@ -66,4 +66,3 @@ select {
     font-family: 'Droid Sans', sans-serif;
     color: white;
 }
-
