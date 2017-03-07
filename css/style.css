@@ -1,6 +1,5 @@
-body
-{ 
-background-image: url('../img/obraz4.jpg');
+body{ 
+    background-image: url('../img/obraz4.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -36,9 +35,16 @@ select {
     margin: 5px 5px 20px 5px;
 }
 
-.text{
-    display: block;padding: 10px 50px;width: 80%;margin: 0 auto; background: Rgba(0, 0, 0, 0.3);
-    
+#innerContent{
+    display: block;
+    padding: 10px 50px;
+    width: 80%;
+    margin: 0 auto; 
+    background: Rgba(0, 0, 0, 0.3);
+    color: white;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 20px;
+    text-align: justify;  
 }
 
 .text img{
@@ -56,11 +62,8 @@ select {
     clear: both;
 }
 
-#html{
-    color: white;
-    font-family: 'Droid Sans', sans-serif;
-    font-size: 20px;
-    text-align: justify;  
+.hidden{
+    display: none;
 }
 
 .footer{
